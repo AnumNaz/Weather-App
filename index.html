@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+        <div class="search">
+            <input class="input-box" type="text" id="input">
+            <button class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="city">
+            <p class="cityName">Mianwali</p>
+        </div>
+        <div class="weather">
+            <i id="weatherIcon" class="fa-solid fa-cloud-rain"></i>
+            <h2 class="temp">22°C</h2>
+            <h3 class="des">Light Rain</h3>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="text">
+                    <span id="humidity">45%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span id="wind-speed">12Km/H</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+            <div class="visibility">
+                <i class="fa-solid fa-eye"></i>
+                <div class="text">
+                    <span id="show-vis">100km</span>
+                    <p>Visibility</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+<script src="script.js"></script>
+</html>
